@@ -11,6 +11,7 @@
     justify-content: space-between;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 5rem;
+    visibility: auto;
 }
 
 #main_page_item:hover{
@@ -45,4 +46,9 @@
 
 .item_letter{
     margin: 0.4rem 0 0.4rem 0;
+    font-weight: bold;
+}
+
+#item_heart{
+    margin-right: 0.3rem;
 }

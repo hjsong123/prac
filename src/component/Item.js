@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
 function Item({index, data}){
     let move_page = useNavigate();
@@ -15,7 +17,7 @@ function Item({index, data}){
                 <div className="item_photo"></div>
             </div>
             <p className="item_letter" id="item_title">{data.snippet.title}</p>
-            <p className="item_letter" id="item_star">5.00 / 4.52 (hard coding)</p>
+            <p className="item_letter" id="item_heart"><FontAwesomeIcon icon={faHeart} style={{color: "#B197FC", fontSize: "1.2rem"}} id="item_heart"/>{data.snippet.countLike}</p>
         </div>
     )
 }

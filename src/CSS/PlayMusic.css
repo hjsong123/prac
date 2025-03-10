@@ -1,0 +1,50 @@
+#music_page_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#music_circle{
+    position: relative;
+    animation: rotate_image 10s linear infinite;
+    animation-play-state: paused;
+}
+
+@keyframes rotate_image{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#music_cartridge{
+    width: 45rem;
+    position: absolute;
+    right: 18rem;
+    top: 8rem;
+}
+
+.music_item{
+    position: absolute;
+    margin-top: 3rem;
+}
+
+#item_btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@keyframes gradient{
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
