@@ -4,5 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## my project
 
-<img src="C:\Users\PC\Desktop\코딩연습\pp\public\React App - Chrome 2025-03-10 11-49-22.gif">
+<img src="https://github.com/hjsong123/prac/blob/master/public/React%20App%20-%20Chrome%202025-03-10%2011-49-22.gif">
 
