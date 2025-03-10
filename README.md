@@ -33,6 +33,10 @@
 
 애초애 각 잡고 하는 프로젝트가 아니므로 큰 상관은 없었지만 뭐 마음에 들면 장땡 아니겠는가.   
 
+-----
+-----   
+
+
 <div align=center><h3>develop</h3></div>    
 음원 데이터는 모두 codepen 예제에서 사용된 오픈데이터를 사용했고, *zustand*를 이용해서 전역 상태관리를 진행했다.   
 
@@ -43,7 +47,7 @@
 뒷북이지만 문법이랄것도 거의 없고, 직관적이라 사용하기가 redux와 비교해 정말 쉬웠다.   
 
 -----
-<img src="https://github.com/hjsong123/prac/blob/master/public/React%20App%20-%20Chrome%202025-03-10%2021-16-37.gif">
+<img align=center src="https://github.com/hjsong123/prac/blob/master/public/React%20App%20-%20Chrome%202025-03-10%2021-16-37.gif">
 
 이후에는 특별할 것없는 기본 애니메이션과 js를 이용해 동적인 pause, play, next, prev 기능을 제작했고,   
 
