@@ -41,7 +41,20 @@ export const useMusicData = create((set) => ({
                 audio : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/VAX%20-%20Fireproof%20Feat%20Teddy%20Sky.mp3",
                 color: "#5d0126"
             }
-		}
+		},
+        {
+            snippet : {
+                thumbnails : {
+                    high : {
+                        url : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/stoney-cover-album.jpg"
+                    }
+                },
+                title: "I Fall Apart",
+                countLike : 47,
+                audio : "https://s3-us-west-2.amazonaws.com/s.cdpn.io/308622/Post%20Malone%20-%20I%20Fall%20Apart.mp3",
+                color: "#cd4829"
+            }
+        }
     ],
     setMusic: () => set((state) => ({music: state.music}))
 }));

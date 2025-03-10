@@ -55,6 +55,10 @@
     margin: 5rem 0 5rem 5rem;
 }
 
+#main_page_bottom_box{
+    overflow: auto;
+}
+
 .search_text{
     width: 34rem;
     height: 3rem;
