@@ -15,6 +15,7 @@ function PlayingMusic() {
     const [isPlaying, setIsPlaying] = useState(false); // 재생 상태 관리, 버튼 토글
     const [feq_speed, feq_set_speed] = useState(4);
 
+    //음악 주파수 표현 기능
     useEffect(() => {
         let canvas = document.getElementById('bend');
         paper.install(window);
@@ -87,8 +88,8 @@ function PlayingMusic() {
 
     }, [feq_speed])
 
+    //오디오 재생 및 배경화면 맞춰서 바꾸기
     useEffect(() => {
-
         const bg_color = document.getElementById('music_page_container');
         if (bg_color) {
             bg_color.style.background = `${current_music?.snippet.color}`;

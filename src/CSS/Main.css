@@ -17,6 +17,12 @@
 .main_page_word{
     color: aliceblue;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.main_page_word > li:hover{
+    transform: translateY(-0.5rem);
+    transition-duration: 0.2s;
 }
 
 #main_page_info > p{
